@@ -1,19 +1,19 @@
 package com.ruoyi.user.mapper;
 
-import java.util.List;
 import com.ruoyi.user.domain.Note;
+
+import java.util.List;
 
 /**
  * 笔记Mapper接口
- * 
+ *
  * @author ruoyi
  * @date 2021-10-20
  */
-public interface NoteMapper 
-{
+public interface NoteMapper {
     /**
      * 查询笔记
-     * 
+     *
      * @param id 笔记主键
      * @return 笔记
      */
@@ -21,7 +21,7 @@ public interface NoteMapper
 
     /**
      * 查询笔记列表
-     * 
+     *
      * @param note 笔记
      * @return 笔记集合
      */
@@ -29,7 +29,7 @@ public interface NoteMapper
 
     /**
      * 新增笔记
-     * 
+     *
      * @param note 笔记
      * @return 结果
      */
@@ -37,7 +37,7 @@ public interface NoteMapper
 
     /**
      * 修改笔记
-     * 
+     *
      * @param note 笔记
      * @return 结果
      */
@@ -45,7 +45,7 @@ public interface NoteMapper
 
     /**
      * 删除笔记
-     * 
+     *
      * @param id 笔记主键
      * @return 结果
      */
@@ -53,7 +53,7 @@ public interface NoteMapper
 
     /**
      * 批量删除笔记
-     * 
+     *
      * @param ids 需要删除的数据主键集合
      * @return 结果
      */
